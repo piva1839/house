@@ -17,6 +17,7 @@
     <link href="css/right_submenu.css" rel="stylesheet">
     <link href="css/card_content.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -272,6 +273,101 @@
       </div>
     </footer>
 
+    <div class="form-container">
+      <button class="modal-close" type="button"></button>
+      <form class="form modal-form" name="form" method="post">
+        <h6 class="form-title">
+          Заказать проект
+        </h6>
+        <label class="field-label" for="name">Ваше имя</label>
+        <input class="form-field" id="name" type="text" name="name" value="">
+        <label class="field-label" for="tel">Ваш телефон</label>
+        <input class="form-field" id="tel" type="tel" name="tel" value="">
+        <label class="field-label" for="mail">Ваш e-mail</label>
+        <input class="form-field" id="mail" type="email" name="mail" value="">
+        <label class="field-label" for="textarea">Текст сообщения</label>
+        <textarea class="text-field" id="textarea" rows="7" cols="45" name="text"></textarea>
+        <div class="confirm">
+          <button class="button" type="submit">
+            Отправить
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-container calculate">
+      <button class="modal-close" type="button"></button>
+      <form class="form modal-form form--calculate" name="form" method="post">
+        <h6 class="form-title">
+          Расчитать стоимость
+        </h6>
+        <div class="form-fields">
+          <input class="form-field form-field--calculate" id="name" type="text" name="name" value="" placeholder="*Ваше имя">
+          <input class="form-field form-field--calculate" id="mail" type="email" name="mail" value="" placeholder="*Ваш e-mail">
+          <input class="form-field form-field--calculate" id="region" type="text" name="region" value="" placeholder="*Регион строительства">
+          <input class="form-field form-field--calculate" id="tel" type="tel" name="tel" value="" placeholder="*Ваш телефон">
+        </div>
+
+        <div class="calculate-services">
+            <p class="calculate-services-title">
+              Укажите, какие услуги вам нужны:
+            </p>
+            <div class="calculate-options">
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">Разработка проекта рабочих чертежей</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+                Монтаж свайно-винтового фундамента</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+                Изготовление домокомплекта для
+      самостоятельной сборки</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+                Строительство силового каркаса дома
+      с кровлей</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+                Внешняя отделка дома</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+              Утепление дома</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+              Внутренняя отделка дома</label>
+
+              <input class="checkbox-field" id="tel" type="checkbox" name="tel"><label for="">
+              Прочие услуги</label>
+            </div>
+        </div>
+
+        <ul>
+          <li>
+            Опишите максимально подробно ваши
+пожелания по выбранным услугам.
+          </li>
+          <li>
+            Укажите размеры, этажность и предназначение
+будущей постройки.
+          </li>
+          <li>
+            Сообщите о наличии перепадов высот
+на участке и прочую информацию, которую
+посчитаете важной для корректного расчета
+вашей заявки.
+          </li>
+        </ul>
+
+        <div class="">
+          <textarea class="text-field text-field--calculate" id="textarea" rows="7" cols="45" name="text"></textarea>
+        </div>
+
+        <div class="confirm">
+          <button class="button" type="submit">
+            Отправить
+          </button>
+        </div>
+      </form>
+    </div>
 
   <script type="text/javascript" src="js/script.js">
 	</script>

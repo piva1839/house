@@ -1,0 +1,57 @@
+.form-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+
+  display: none;
+  width: 220px;
+  margin-left: -110px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  width: 18px;
+  height: 18px;
+
+  background: url("../img/cross.png") no-repeat;
+  background-size: 100%;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.form-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 14px;
+	color: #855027;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.calculate {
+  display: block;
+  width: 840px;
+  margin-left: -420px;
+}
+
+.form-fields {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-field--calculate {
+  width: 185px;
+}
+
+@media screen and (max-width: 530px) {
+
+}
