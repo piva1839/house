@@ -181,56 +181,56 @@
               <p class="reviws-pages">
                 Страницы:
               </p>
-              <ul class="pagination">
-                <li class="pager-item">
-    							<a class="first" href="#">Предыдущая</a>
+              <ul class="reviews-pagination">
+                <li class="reviews-pager-item">
+    							<a class="reviews-first" href="#">Предыдущая</a>
     						</li>
-    						<li class="pager-item pager-item--display">
+    						<li class="reviews-pager-item">
     							<a href="#">1</a>
     						</li>
-    						<li class="pager-item pager-item--display">
-    							<span class="pager-current">2</span>
+    						<li class="reviews-pager-item">
+    							<span class="reviews-pager-current">2</span>
     						</li>
-    						<li class="pager-item pager-item--display">
+    						<li class="reviews-pager-item">
     							<a href="#">3</a>
     						</li>
-                <li class="pager-item pager-item--display">
+                <li class="reviews-pager-item">
     							<a href="#">4</a>
     						</li>
-                <li class="pager-item pager-item--display">
+                <li class="reviews-pager-item">
     							<a href="#">5</a>
     						</li>
-                <li class="pager-item pager-item--display">
+                <li class="reviews-pager-item">
     							<a href="#">6</a>
     						</li>
-    						<li class="pager-item">
+    						<li class="reviews-pager-item">
     							<a class="next" href="#">Следующая</a>
     						</li>
     					</ul>
             </div>
             <form class="reviews__form">
               <ul class="reviews__form-header">
-                <li>
+                <li class="reviews__form-title">
                   Оставить комментарий
                 </li>
                 <li>
-                  <a href="#">Login</a>
+                  <a class="reviews__form-login" href="#">Login</a>
                 </li>
               </ul>
               <ul class="reviews__user-info">
                 <li>
-                  <label for="user-name">Имя <input class="reviews__form-field" id="name" type="text" name="user-name" value="" required></label>
+                  <label for="user-name">Имя <input class="reviews__form-field user-name__margin" id="name" type="text" name="user-name" value="" required></label>
                 </li>
                 <li>
-                  <label for="user-mail">E-mail<input class="reviews__form-field" id="mail" type="email" name="user-mail" value="" required></label>
+                  <label for="user-mail">E-mail<input class="reviews__form-field user-mail__margin" id="mail" type="email" name="user-mail" value="" required></label>
                 </il>
               </ul>
               <ul class="reviews__textarea">
-                <li>
+                <li class="reviews__textarea-title">
                   <label for="user-text">Комментарий</label>
                 </li>
                 <li>
-                  <textarea class="reviews__text-field" id="textarea" rows="7" cols="45" name="user-text" placeholder="Описание"></textarea>
+                  <textarea class="reviews__text-field" id="textarea" rows="7" cols="45" name="user-text"></textarea>
                 </li>
               </ul>
               <ul class="reviews__confirm">
@@ -248,7 +248,7 @@
                   </button>
                 </li>
                 <li>
-                  <a href="#">Правила вопросов и комментариев</a>
+                  <a class="reviews-rooles" href="#">Правила вопросов<br> и комментариев</a>
                 </li>
               </ul>
             </form>
