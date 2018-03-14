@@ -1,0 +1,95 @@
+.reviews {
+  padding: 50px 0;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #505050;
+}
+
+.reviews__day {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+
+  background: linear-gradient(to top, #7f4b23, #b8794a);
+  border: 1px solid #cdcdcd;
+	border-radius: 3px;
+
+  color: #ffffff;
+  text-align: right;
+}
+
+.reviews-time {
+  padding-left: 20px;
+
+  background: url("../img/watch.png") no-repeat;
+  background-position: left center;
+}
+
+.reviews__autor {
+  display: flex;
+}
+
+.reviews-autor-avatar {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.autor-name {
+  padding-left: 20px;
+
+  background: url("../img/user-icon.png") no-repeat;
+  background-position: left center;
+}
+
+.reviews__content {
+  margin-bottom: 50px;
+}
+
+.reviews__paginator {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  list-style-type: none;
+  display: flex;
+}
+
+.pager-item {
+  margin-right: 10px;
+}
+
+.reviews__form {
+  padding: 20px;
+
+  border: 1px solid #b8794a;
+  border-radius: 3px;
+}
+
+.reviews__form-header {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__user-info {
+  list-style-type: none;
+}
+
+.reviews__textarea {
+  list-style-type: none;
+}
+
+.reviews__confirm {
+  list-style-type: none;
+}
+
+.reviews__send {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 530px) {
+
+}

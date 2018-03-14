@@ -37,7 +37,7 @@
 }
 
 .calculate {
-  display: block;
+  display: none;
   width: 840px;
   margin-left: -420px;
 }
@@ -50,6 +50,107 @@
 
 .form-field--calculate {
   width: 185px;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #9c9c9c;
+}
+
+.form-field--calculate:focus::placeholder {
+  color: transparent;
+}
+
+.form-body {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.calculate-services-title {
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #9c9c9c;
+}
+
+.calculate-options {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #9c9c9c;
+}
+
+.calculate-services-title {
+  margin-bottom: 15px;
+}
+
+.calculate-options label {
+  margin-bottom: 15px;
+}
+
+.calculate-description {
+  width: 50%;
+}
+
+.calculate-description-instruction {
+  list-style-position: inside;
+  margin-bottom: 20px;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #9c9c9c;
+}
+
+.calculate-description-instruction li {
+  margin-bottom: 10px;
+}
+
+.text-field--calculate {
+  width: 100%;
+  margin-bottom: 0;
+  margin-bottom: 10px;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #9c9c9c;
+}
+
+.text-field--calculate:focus::placeholder {
+  color: transparent;
+}
+
+.download-block {
+  display: flex;
+}
+
+.download-text {
+  width: 69%;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #9c9c9c;
+}
+
+.button--green {
+  background: #54982f;
+  border: none;
+
+  font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+}
+
+.confirm {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 530px) {
