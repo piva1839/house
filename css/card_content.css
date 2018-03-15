@@ -17,7 +17,7 @@
 .card-content__product-name {
 	margin-bottom: 25px;
 	font-family: "Arial", sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 22px;
 	color: #6f4834;
 }
@@ -38,6 +38,8 @@
 
 .card-content__product-info-link {
 	position: relative;
+
+	outline: none;
 }
 
 .card-content__product-info-link::after {
@@ -120,7 +122,7 @@
 	font-family: "Segoe UI", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 18px;
-	color: #6f4834;
+	color: #6f4834 !important;
 }
 
 .card-content__product-desc-content {
@@ -134,6 +136,10 @@
 
 .card-content__product-plan {
 	margin-bottom: 80px;
+}
+
+.card-content__product-plan a {
+	outline: none;
 }
 
 .card-content__additional-info {
@@ -150,6 +156,7 @@
 	font-family: "Segoe UI", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 18px;
+	font-weight: 400;
 	color: #6f4834
 }
 
@@ -213,6 +220,11 @@
 	padding: 20px 0;
 
 	text-align: center;
+}
+
+.advertising {
+	margin-left: 9px;
+	margin-bottom: 20px;
 }
 
 .follow-us-title {
