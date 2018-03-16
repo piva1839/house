@@ -48,6 +48,11 @@
   margin-bottom: 50px;
 }
 
+.review {
+  color: #505050;
+  text-decoration: none;
+}
+
 .reviews__paginator {
   margin-bottom: 30px;
 }

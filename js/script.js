@@ -32,3 +32,15 @@ $(".order-modal").click(function() {
 $(".modal-close").click(function() {
   $(".order").css("display","none");
 });
+
+$(".confirm-send").click(function(event){
+    event.preventDefault();
+});
+
+$(".confirm-send").click(function() {
+  $(".send-confirm").css("display","flex");
+});
+
+$(".modal-close").click(function() {
+  $(".send-confirm").css("display","none");
+});
