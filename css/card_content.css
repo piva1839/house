@@ -146,8 +146,16 @@
 	width: 220px;
 }
 
+.submenu__list--margin-bottom {
+	margin-bottom: 30px;
+}
+
 .right-submenu {
 	margin-bottom: 30px;
+}
+
+.submenu__list:first-child  {
+	margin-top: 20px;
 }
 
 .more-info-projects-title {

@@ -156,6 +156,7 @@
 }
 
 .reviews__text-field {
+  width: 100%;
   padding: 5px 10px;
 
   border: 1px solid #b8794a;
@@ -177,8 +178,4 @@
 .reviews__form-login,
 .reviews-rooles {
   color: #54982f;
-}
-
-@media screen and (max-width: 530px) {
-
 }

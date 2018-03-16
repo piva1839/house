@@ -252,8 +252,24 @@
 .catalog-content__additional-info {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	width: 220px;
+}
+
+.submenu__list-title {
+	margin-bottom: 20px;
+
+	font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #432411;
+}
+
+
+
+.submenu__list-margin {
+	margin-bottom: 20px;
 }
 
 .news-item {
@@ -423,7 +439,7 @@
 	}
 
 	.catalog-item {
-		width: 48%;
+		width: 100%;
 }
 
 @media screen and (max-width: 760px) {
@@ -483,5 +499,11 @@
 @media screen and (max-width: 550px) {
 	.pager-item--display {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.catalog-list {
+		justify-content: center;
 	}
 }
