@@ -257,16 +257,14 @@
 }
 
 .submenu__list-title {
-	margin-bottom: 20px;
+	align-self: left;
+	margin-bottom: 25px;
 
 	font-family: "Segoe UI", "Arial", sans-serif;
-	font-size: 16px;
-	line-height: 22px;
-	font-weight: 600;
-	color: #432411;
+	font-size: 18px;
+	line-height: 24px;
+	color: #6f4834;
 }
-
-
 
 .submenu__list-margin {
 	margin-bottom: 20px;
@@ -352,7 +350,7 @@
 .form {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	padding: 10px 15px;
 	width: 220px;
 
@@ -410,7 +408,6 @@
 .follow-us-title {
 	display: block;
 	align-self: left;
-	margin-left: 10px;
 	margin-bottom: 10px;
 
 	font-family: "Segoe UI", "Arial", sans-serif;

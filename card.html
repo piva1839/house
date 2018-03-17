@@ -13,8 +13,8 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/main_menu.css" rel="stylesheet">
-    <link href="css/submenu.css" rel="stylesheet">
     <link href="css/right_submenu.css" rel="stylesheet">
+    <link href="css/submenu.css" rel="stylesheet">
     <link href="css/card_content.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/modal.css" rel="stylesheet">
@@ -150,15 +150,15 @@
           </div>
           <p>
             <script type="text/javascript">(function() {
-            if (window.pluso)if (typeof window.pluso.start == "function") return;
-            if (window.ifpluso==undefined) { window.ifpluso = 1;
-              var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-              s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-              s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-              var h=d[g]('body')[0];
-              h.appendChild(s);
-            }})();</script>
-            <div class="pluso" data-background="#ebebeb" data-options="big,square,line,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
+              if (window.pluso)if (typeof window.pluso.start == "function") return;
+              if (window.ifpluso==undefined) { window.ifpluso = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+                var h=d[g]('body')[0];
+                h.appendChild(s);
+              }})();</script>
+            <div class="pluso" data-background="#ebebeb" data-options="medium,square,line,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
           </p>
           <div class="reviews">
             <div class="reviews__day">
@@ -249,9 +249,6 @@
                     Добавить
                   </button>
                 </li>
-                <li>
-                  <a class="reviews-rooles" href="#">Правила вопросов<br> и комментариев</a>
-                </li>
               </ul>
             </form>
           </div>
@@ -261,39 +258,41 @@
 
         <div class="card-content__additional-info">
           <!-- right_submenu -->
+          <h3 class="submenu__list-title">
+            Каталог проектов:
+          </h3>
+          <ul class="submenu__list submenu__list-right-column">
+            <li  class="submenu__item">
+              <a class="submenu__link submenu__link--font" href="#">Одноэтажные дома</a>
+            </li>
+            <li  class="submenu__item">
+              <a class="submenu__link submenu__link--font" href="#">Дома с мансардой</a>
+            </li>
+          </ul>
+          <ul class="submenu__list submenu__list-right-column">
+            <li  class="submenu__item">
+              <a class="submenu__link submenu__link--font" href="#">Двухэтажные дома</a>
+            </li>
+            <li  class="submenu__item">
+              <a class="submenu__link submenu__link--active  submenu__link--font" href="catalog.html">Бани</a>
+            </li>
+          </ul>
+          <ul class="submenu__list submenu__list-right-column">
+            <li  class="submenu__item">
+              <a class="submenu__link submenu__link--font" href="#">Гаражи и навесы</a>
+            </li>
+          </ul>
+          <ul class="submenu__list submenu__list--margin-bottom  submenu__list-right-column">
+            <li  class="submenu__item">
+              <a class="submenu__link submenu__link--font" href="#">Хозблоки</a>
+            </li>
+          </ul>
 
-          <ul class="submenu__list">
-            <li  class="submenu__item">
-              <a class="submenu__link" href="#">Одноэтажные дома</a>
-            </li>
-            <li  class="submenu__item">
-              <a class="submenu__link" href="#">Дома с мансардой</a>
-            </li>
-          </ul>
-          <ul class="submenu__list">
-            <li  class="submenu__item">
-              <a class="submenu__link" href="#">Двухэтажные дома</a>
-            </li>
-            <li  class="submenu__item">
-              <a class="submenu__link submenu__link--active" href="catalog.html">Бани</a>
-            </li>
-          </ul>
-          <ul class="submenu__list">
-            <li  class="submenu__item">
-              <a class="submenu__link" href="#">Гаражи и навесы</a>
-            </li>
-          </ul>
-          <ul class="submenu__list submenu__list--margin-bottom">
-            <li  class="submenu__item">
-              <a class="submenu__link" href="#">Хозблоки</a>
-            </li>
-          </ul>
-
-          <b class="submenu__list-title">
+          <h3 class="submenu__list-title">
             Подборка проектов:
-          </b>
+          </h3>
           <div class="submenu right-submenu">
-            <ul class="submenu__list">
+            <ul class="submenu__list submenu__list-right-column">
                 <li  class="submenu__item">
                   <a class="submenu__link" href="#">Проекты домов с балконом</a>
                 </li>
@@ -304,7 +303,7 @@
                   <a class="submenu__link" href="#">Проекты домов с эркером</a>
                 </li>
               </ul>
-              <ul class="submenu__list">
+              <ul class="submenu__list submenu__list-right-column">
                 <li  class="submenu__item">
                   <a class="submenu__link" href="#">Проекты домов с тремя спальнями</a>
                 </li>
@@ -315,7 +314,7 @@
                   <a class="submenu__link" href="#">Проекты красивых домов</a>
                 </li>
               </ul>
-              <ul class="submenu__list">
+              <ul class="submenu__list submenu__list-right-column">
                 <li  class="submenu__item">
                   <a class="submenu__link" href="#">Проекты загородных домов</a>
                 </li>
@@ -326,7 +325,7 @@
                   <a class="submenu__link" href="#">Проекты эконом домов</a>
                 </li>
               </ul>
-              <ul class="submenu__list">
+              <ul class="submenu__list submenu__list-right-column">
                 <li  class="submenu__item">
                   <a class="submenu__link" href="#">Проекты домов 12 на 12</a>
                 </li>
@@ -334,7 +333,7 @@
                   <a class="submenu__link" href="#">Проекты простых домов</a>
                 </li>
               </ul>
-              <ul class="submenu__list">
+              <ul class="submenu__list submenu__list-right-column">
                 <li  class="submenu__item">
                   <a class="submenu__link" href="#">Проекты домов с верандой</a>
                 </li>
@@ -342,13 +341,13 @@
                   <a class="submenu__link" href="#">Проекты домов 8 на 9</a>
                 </li>
               </ul>
-              <ul class="submenu__list">
+              <ul class="submenu__list submenu__list-right-column">
                 <li  class="submenu__item">
                   <a class="submenu__link" href="#">Проекты домов с террасой</a>
                 </li>
               </ul>
           </div>
-          <h3 class="more-info-projects-title">
+          <h3 class="submenu__list-title">
             Не нашли подходящий проект?
           </h3>
           <p class="more-info-projects-contact">
@@ -377,7 +376,9 @@
           <div class="advertising">
             <a class="advertising-link" href="#"><img class="advertising-banner" src="img/banner.jpg" alt="banner" width="203" height="230"></a>
           </div>
-          <b class="follow-us-title">Следите за нами в:</b>
+          <h3 class="submenu__list-title">
+            Следите за нами в:
+          </h3>
           <p class="follow-us">
               <a class="follow-us__social-link" href="#"><img class="follow-us__social-icon" src="img/vk_2.png" alt="vk" width="36" height="36"></a>
               <a class="follow-us__social-link" href="#"><img class="follow-us__social-icon" src="img/youtube.png" alt="youtube" width="36" height="36"></a>

@@ -143,7 +143,20 @@
 }
 
 .card-content__additional-info {
+	align-items: left;
 	width: 220px;
+
+	text-align: left;
+}
+
+.submenu__list-title {
+	align-self: left;
+	margin-bottom: 25px;
+
+	font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #6f4834;
 }
 
 .submenu__list--margin-bottom {
@@ -152,6 +165,8 @@
 
 .right-submenu {
 	margin-bottom: 30px;
+	align-items: left;
+	text-align: left;
 }
 
 .submenu__list:first-child  {
@@ -227,22 +242,15 @@
 .calculator {
 	padding: 20px 0;
 
-	text-align: center;
+	text-align: left;
 }
 
 .advertising {
-	margin-left: 9px;
 	margin-bottom: 20px;
 }
 
-.follow-us-title {
-	margin-left: 10px;
-}
-
 .follow-us {
-	margin-top: 5px;
-
-	text-align: center;
+	text-align: left;
 }
 
 @media screen and (max-width: 960px) {

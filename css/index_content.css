@@ -155,8 +155,18 @@
 .index-content__additional-info {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	width: 220px;
+}
+
+.submenu__list-title {
+	align-self: left;
+	margin-bottom: 25px;
+
+	font-family: "Segoe UI", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #6f4834;
 }
 
 .news-item {
